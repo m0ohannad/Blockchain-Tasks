@@ -11,6 +11,18 @@ function addBook(id, title, author, price, quantity) {
     books.push([id, title, author, price, quantity]);
 }
 
+function editBook(id, title, author, price, quantity) {
+    for (let i = 0; i < books.length; i++) {
+        if (books[i][0] === id) {
+            books[i][1] = title;
+            books[i][2] = author;
+            books[i][3] = price;
+            books[i][4] = quantity;
+            break;
+        }
+    }
+}
+
 function searchBook(id, title, author) {
     for (let i = 0; i < books.length; i++) {
         if (id && books[i][0] === id) {
@@ -45,18 +57,6 @@ function removeBook(id) {
     for (let i = 0; i < books.length; i++) {
         if (books[i][0] === id) {
             books.splice(i, 1);
-            break;
-        }
-    }
-}
-
-function editBook(id, title, author, price, quantity) {
-    for (let i = 0; i < books.length; i++) {
-        if (books[i][0] === id) {
-            books[i][1] = title;
-            books[i][2] = author;
-            books[i][3] = price;
-            books[i][4] = quantity;
             break;
         }
     }
@@ -153,7 +153,7 @@ function displayBooks() {
         process.exit();
     } else if (choice === "sell"){
         const id = parseInt(readline.question("Enter book ID: "));
-        const quantity = parseInt(readline.question("Enter quantity:"));
+        const quantity = parseInt(readline.question("Enter quantity: "));
         const customerBalance = parseFloat(readline.question("Enter your balance: "));
         sellBook(id, quantity, customerBalance);
     } else {
