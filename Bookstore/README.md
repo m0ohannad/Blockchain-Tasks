@@ -8,19 +8,19 @@ Project requirements are available on the satr platform in this [link](https://s
 The following are the expected outputs of running the code:
 
 - **Sell Book**
-![sell book](./Bookstore/simple-run/sell.png)
+![sell book](./simple-run/sell.png)
 
 - **Add Book**
-![add book](./Bookstore/simple-run/add.png)
+![add book](./simple-run/add.png)
 
 - **Edit Book**
-![edit book](./Bookstore/simple-run/edit.png)
+![edit book](./simple-run/edit.png)
 
 - **Remove Book**
-![remove book](./Bookstore/simple-run/remove.png)
+![remove book](./simple-run/remove.png)
 
 - **Search Book**
-![search book](./Bookstore/simple-run/search.png)
+![search book](./simple-run/search.png)
 
 - **Exit**
-![exit book](./Bookstore/simple-run/exit.png)
+![exit book](./simple-run/exit.png)
