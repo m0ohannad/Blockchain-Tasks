@@ -86,6 +86,6 @@ And Our wallet allows us to perform all smart contract functions.
 
 ![Wallet Transactions](./img/Wallet-Transactions.png)
 
-Finally we can check all the transactions in Ganache under the TRANSACTIONS tab.
+Finally we can check all the transactions in Ganache under the `TRANSACTIONS` tab.
 
 ![Ganache All Transactions](./img/Ganache-All-Transactions.png)
